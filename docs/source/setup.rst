@@ -8,7 +8,7 @@ PyPI
 scrapy-moviesinconcert is available on the Python Package Index. This makes installing
 it with `pip <http://www.pip-installer.org>`_ as easy as::
 
-    pip install scrapy-moviesinconcert
+    pip install scrapy_moviesinconcert
 
 Git
 ---
