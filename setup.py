@@ -19,6 +19,7 @@ setup(name="scrapy-moviesinconcert",
                    "Programming Language :: Python :: 2.7"],
       description="",
       long_description=open("README.txt", encoding="utf-8").read(),
+      install_requires=["scrapy"],
       setup_requires=["setuptools_scm"],
       use_scm_version={"write_to": "scrapy_moviesinconcert/version.py"},
       extras_require={
