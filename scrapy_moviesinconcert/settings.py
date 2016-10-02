@@ -11,8 +11,8 @@
 
 BOT_NAME = 'moviesinconcert'
 
-SPIDER_MODULES = ['moviesinconcert.spiders']
-NEWSPIDER_MODULE = 'moviesinconcert.spiders'
+SPIDER_MODULES = ['scrapy_moviesinconcert.spiders']
+NEWSPIDER_MODULE = 'scrapy_moviesinconcert.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
