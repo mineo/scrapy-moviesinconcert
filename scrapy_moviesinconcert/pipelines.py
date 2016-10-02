@@ -6,6 +6,7 @@
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 
-class MoviesinconcertPipeline(object):
+class MoviesInConcertPipeline(object):
     def process_item(self, item, spider):
+        item["link"] = u"http://www.moviesinconcert.nl/" + item["link"]
         return item

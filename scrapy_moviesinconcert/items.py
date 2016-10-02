@@ -9,6 +9,9 @@ import scrapy
 
 
 class MoviesinconcertItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    city = scrapy.Field()
+    country = scrapy.Field()
+    date = scrapy.Field()
+    link = scrapy.Field()
+    state = scrapy.Field()
+    title = scrapy.Field()
